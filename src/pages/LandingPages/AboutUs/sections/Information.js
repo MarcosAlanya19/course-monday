@@ -72,12 +72,6 @@ function Information() {
               title="Obtén Ideas Sobre Búsqueda"
               description="
               Los usuarios de EducaCultura buscan una experiencia de búsqueda sin obstáculos para descubrir contenido educativo y cultural de calidad. Nos esforzamos por ofrecer una experiencia sin fricciones que satisfaga las expectativas de nuestros usuarios."
-              action={{
-                type: "internal",
-                route: "pages/company/about-us",
-                color: "info",
-                label: "find out more",
-              }}
             />
           </Grid>
         </Grid>
