@@ -31,7 +31,6 @@ import routes from "routes";
 
 // Images
 import bgImage from "assets/images/bg-about-us.jpg";
-import Contact from "../Author/sections/Contact";
 import Places from "../Author/sections/Posts";
 import Information from "./sections/Information";
 
@@ -94,7 +93,7 @@ function AboutUs() {
       >
         <Information />
         <Places />
-        <Contact />
+        {/* <Contact /> */}
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
