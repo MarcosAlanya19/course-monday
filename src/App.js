@@ -21,7 +21,7 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Routes>
-        <Route path="/presentation" element={<AboutUs />} />
+        <Route path="/" element={<AboutUs />} />
       </Routes>
     </ThemeProvider>
   );
