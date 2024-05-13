@@ -8,8 +8,6 @@ import BackgroundBlogCard from "examples/Cards/BlogCards/BackgroundBlogCard";
 import TransparentBlogCard from "examples/Cards/BlogCards/TransparentBlogCard";
 
 // Images
-import post3 from "assets/images/examples/blog-9-4.jpg";
-import post1 from "assets/images/examples/testimonial-6-2.jpg";
 import post2 from "assets/images/examples/testimonial-6-3.jpg";
 
 function Places() {
@@ -106,12 +104,14 @@ function Places() {
           </Grid>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
-              image={post1}
-              title="Rover raised $65 million"
-              description="Finding temporary housing for your dog should be as easy as renting an Airbnb. That’s the idea behind Rover ..."
+              image={
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpcdihf3_LbRei1aPNeJJFwkmEViKMA7PzLNuNUWOw1g&s"
+              }
+              title="Ingenieria de sistemas"
+              description="Conviértete en un profesional capaz de analizar, implementar, ejecutar y gestionar proyectos de tecnología de información (TI)"
               action={{
                 type: "internal",
-                route: "/pages/blogs/author",
+                route: "https://www.elp.edu.pe/ingenier%C3%ADa-de-sistemas-de-informacion",
                 color: "info",
                 label: "Leer más",
               }}
@@ -120,11 +120,11 @@ function Places() {
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
               image={post2}
-              title="MateLabs machine learning"
-              description="If you’ve ever wanted to train a machine learning model and integrate it with IFTTT, you now can with ..."
+              title="Administracion de empresas"
+              description="Licenciado en Administración Tiene como propósito la formación de Gerentes y Administradores de empresas y organizaciones con una visión internacional "
               action={{
                 type: "internal",
-                route: "/pages/blogs/author",
+                route: "https://www.educaedu.com.pe/carrera/administracion-de-empresas/ayacucho",
                 color: "info",
                 label: "Leer más",
               }}
@@ -132,12 +132,14 @@ function Places() {
           </Grid>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
-              image={post3}
-              title="MateLabs machine learning"
-              description="If you’ve ever wanted to train a machine learning model and integrate it with IFTTT, you now can with ..."
+              image={
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsn2v_pGyi95dzsrWQAu__1-dE75ogoiHOfFFv_A1znz0vDn4CNWDXSenEYBfWUvF_Ft4&usqp=CAU"
+              }
+              title="Contabilidad"
+              description="Conviértete en un profesional técnico capaz de realizar el registro contable de las operaciones de las empresas."
               action={{
                 type: "internal",
-                route: "/pages/blogs/author",
+                route: "https://www.ilp.edu.pe/contabilidad",
                 color: "info",
                 label: "Leer más",
               }}
