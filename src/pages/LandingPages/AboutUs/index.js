@@ -94,9 +94,6 @@ function AboutUs() {
       >
         <Information />
         <Places />
-        {/* <Team /> */}
-        {/* <Featuring /> */}
-        {/* <Newsletter /> */}
         <Contact />
       </Card>
       <MKBox pt={6} px={1} mt={6}>
